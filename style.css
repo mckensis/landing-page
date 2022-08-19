@@ -1,15 +1,158 @@
-/* Setting up custom variables for colors */
-:root {
-    /* hero / footer & info header text: 36px extra bold */
-    --darkBackground: #1F2937;
-    /* hero main text: 48px extra bold & header logo: 24px */
-    --heroText: #F9FAF8;
-    /* 18px hero secondary & header link text */
-    --heroSecondary: #E5E7EB;
-    /* button color & call to action bg */
-    --buttonColor: #3882F6;
-    /* quote section bg */
-    --quoteBackground: #E5E7EB;
-    /* quote text: 36px light italic */
-    --quoteText: #1F2937;
+/* remove margins and padding and set box sizing */
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+/* Font Styling */
+html {
+    font-family: 'Roboto', sans-serif;
+}
+header ul li a {
+    /* remove underline from links in header */
+    text-decoration: none;
+    
+    color: #E5E7EB;
+}
+header h1 {
+    /* top left heading */
+    color: #F9FAF8;
+    font-size: 24px;
+}
+.hero h2 {
+    /* hero text */
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: bolder; /* extra bold */
+}
+
+.heroText {
+    width: 500px;
+}
+
+/* Hero Image Placeholder */
+.heroImage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height: 250px;
+    background-color: slategrey;
+    text-align: center;
+}
+
+
+/* Header and Hero shared properties */
+header,
+.hero {
+    background-color: #1F2937;
+    color: #E5E7EB;
+    font-size: 18px;
+    padding: 20px 300px 100px 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Styling for Unordered List */
+header ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+/*Hero section sign up button styling */
+button.heroButton {
+    background-color: #3882F6;
+    color: inherit;
+    text-align: center;
+    padding: 10px 30px;
+    font: inherit;
+    font-weight: bold;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.randomInfo {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-bottom: 100px;
+}
+
+h3 {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    padding: 50px;
+}
+
+.randomBits {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+}
+
+.subtext {
+    width: 200px;
+}
+
+.subtextImage {
+    height: 200px;
+    border: 5px solid #3882F6;
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+
+.testimonial {
+    background-color: #E5E7EB;
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    padding: 100px 250px 50px 250px;
+}
+
+figcaption {
+    padding-top: 50px;
+    text-align: right;
+    font-style: normal;
+}
+
+.cta {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    margin: 100px 300px;
+    padding: 50px 100px;
+    border-radius: 20px;
+    position: relative;
+}
+
+.cta h4 {
+    font-size: 24px;
+}
+
+.actionButton {
+    position: absolute;
+    top: 40px;
+    right: 50px;
+    padding: 20px;
+    background: none;
+    color: white;
+    border: 5px solid white;
+    border-radius: 10px;
+    font-size: 24px;
+}
+
+footer {
+    height: 100px;
+    color: #F9FAF8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
 }
