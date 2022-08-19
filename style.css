@@ -1,9 +1,10 @@
+/* Setting up custom variables for colors */
 :root {
-    /* hero & footer & info header text: 36px extra bold */
+    /* hero / footer & info header text: 36px extra bold */
     --darkBackground: #1F2937;
-    /* hero main: 48px extra bold * header logo: 24px */
+    /* hero main text: 48px extra bold & header logo: 24px */
     --heroText: #F9FAF8;
-    /* 18px hero secondary & link */
+    /* 18px hero secondary & header link text */
     --heroSecondary: #E5E7EB;
     /* button color & call to action bg */
     --buttonColor: #3882F6;
