@@ -1,0 +1,14 @@
+:root {
+    /* hero & footer & info header text: 36px extra bold */
+    --darkBackground: #1F2937;
+    /* hero main: 48px extra bold * header logo: 24px */
+    --heroText: #F9FAF8;
+    /* 18px hero secondary & link */
+    --heroSecondary: #E5E7EB;
+    /* button color & call to action bg */
+    --buttonColor: #3882F6;
+    /* quote section bg */
+    --quoteBackground: #E5E7EB;
+    /* quote text: 36px light italic */
+    --quoteText: #1F2937;
+}
